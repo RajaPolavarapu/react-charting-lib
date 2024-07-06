@@ -70,7 +70,7 @@ const ParallelCoordinates = ({ dimensions = ["Petal_Length", "Petal_Width", "Sep
     }, [dimensions, xScale, yScales]);
 
     return (
-        <div style={{ margin: 20, border: "1px solid green", borderRadius: "10px", width: "500px" }}>
+        <div style={{ margin: 20, border: "1px solid green", borderRadius: "10px", width: "100%" }}>
             <h3 style={{ margin: 5 }}>Parallel Coordinates</h3>
             <div
                 ref={containerRef}

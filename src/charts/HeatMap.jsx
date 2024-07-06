@@ -56,7 +56,7 @@ const HeatMap = () => {
     useRenderAxes(xRef, yRef, xScale, yScale, height, margin);
 
     return (
-        <div style={{ margin: 20, border: "1px solid green", borderRadius: "10px", width: "500px" }}>
+        <div style={{ margin: 20, border: "1px solid green", borderRadius: "10px", width: "100%" }}>
             <h3 style={{ margin: 5 }}>Heat Map</h3>
             <div
                 ref={containerRef}

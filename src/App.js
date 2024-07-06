@@ -4,10 +4,15 @@ import ParallelCoordinates from './charts/ParallelCoordinates';
 
 const App = () => {
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      flexWrap: "wrap"
+    }}>
       <ParallelCoordinates />
       <HeatMap />
-    </div>
+    </div >
   );
 };
 
