@@ -71,10 +71,10 @@ const ForceDirectedGraph = () => {
     }, []);
 
     return (
-        <div style={{ margin: 20, border: "1px solid gray", borderRadius: "10px", width: "100%" }}>
+        <div style={{ width: "100%" }}>
             <div
                 ref={containerRef}
-                style={{ width: "100%", height: "95vh" }}
+                style={{ width: "100%", height: "99vh" }}
             >
                 <svg ref={svgRef} viewBox={[-width / 2, -height / 2, width, height]} height={height} width={width}>
                     <g ref={linkRef} stroke="#999" opacity={.6}>
