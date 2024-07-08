@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "Myriel",
+      "group": 1
+    },
+    {
+      "id": "Napoleon",
+      "group": 1
+    },
+    {
+      "id": "Mlle.Baptistine",
+      "group": 1
+    },
+    {
+      "id": "Mme.Magloire",
+      "group": 1
+    },
+    {
+      "id": "CountessdeLo",
+      "group": 1
+    },
+    {
+      "id": "Valjean",
+      "group": 2
+    },
+    {
+      "id": "Fantine",
+      "group": 3
+    },
+    {
+      "id": "Cosette",
+      "group": 5
+    },
+    {
+      "id": "Javert",
+      "group": 4
+    },
+    {
+      "id": "Thenardier",
+      "group": 4
+    },
+    {
+      "id": "Eponine",
+      "group": 4
+    },
+    {
+      "id": "Gavroche",
+      "group": 8
+    },
+    {
+      "id": "Marius",
+      "group": 8
+    },
+    {
+      "id": "Enjolras",
+      "group": 8
+    },
+    {
+      "id": "Courfeyrac",
+      "group": 8
+    },
+    {
+      "id": "Mlle.Gillenormand",
+      "group": 5
+    },
+    {
+      "id": "Mme.Pontmercy",
+      "group": 5
+    },
+    {
+      "id": "Prouvaire",
+      "group": 8
+    },
+    {
+      "id": "Feuilly",
+      "group": 8
+    },
+    {
+      "id": "Combeferre",
+      "group": 8
+    }
+  ],
+  "links": [
+    {
+      "source": "Myriel",
+      "target": "Napoleon",
+      "value": 1
+    },
+    {
+      "source": "Myriel",
+      "target": "Mlle.Baptistine",
+      "value": 1
+    },
+    {
+      "source": "Mme.Magloire",
+      "target": "Valjean",
+      "value": 1
+    },
+    {
+      "source": "CountessdeLo",
+      "target": "Fantine",
+      "value": 1
+    },
+    {
+      "source": "Valjean",
+      "target": "Cosette",
+      "value": 1
+    },
+    {
+      "source": "Cosette",
+      "target": "Javert",
+      "value": 1
+    },
+    {
+      "source": "Javert",
+      "target": "Thenardier",
+      "value": 1
+    },
+    {
+      "source": "Thenardier",
+      "target": "Eponine",
+      "value": 1
+    },
+    {
+      "source": "Eponine",
+      "target": "Gavroche",
+      "value": 1
+    },
+    {
+      "source": "Gavroche",
+      "target": "Marius",
+      "value": 1
+    },
+    {
+      "source": "Marius",
+      "target": "Enjolras",
+      "value": 1
+    },
+    {
+      "source": "Enjolras",
+      "target": "Courfeyrac",
+      "value": 1
+    },
+    {
+      "source": "Courfeyrac",
+      "target": "Mlle.Gillenormand",
+      "value": 1
+    },
+    {
+      "source": "Mlle.Gillenormand",
+      "target": "Mme.Pontmercy",
+      "value": 1
+    },
+    {
+      "source": "Mme.Pontmercy",
+      "target": "Prouvaire",
+      "value": 1
+    },
+    {
+      "source": "Prouvaire",
+      "target": "Feuilly",
+      "value": 1
+    },
+    {
+      "source": "Feuilly",
+      "target": "Combeferre",
+      "value": 1
+    },
+    {
+      "source": "Combeferre",
+      "target": "Napoleon",
+      "value": 1
+    },
+    {
+      "source": "Fantine",
+      "target": "Gavroche",
+      "value": 1
+    },
+    {
+      "source": "Valjean",
+      "target": "Eponine",
+      "value": 1
+    }
+  ]
+}

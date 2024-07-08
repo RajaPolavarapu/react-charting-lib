@@ -1,5 +1,6 @@
 import React from 'react';
 import HeatMap from './charts/HeatMap';
+import ForceDirected from './charts/ForceDirected';
 import ParallelCoordinates from './charts/ParallelCoordinates';
 
 const App = () => {
@@ -10,8 +11,9 @@ const App = () => {
       justifyContent: "space-between",
       flexWrap: "wrap"
     }}>
-      <ParallelCoordinates />
-      <HeatMap />
+      <ForceDirected />
+      {/* <ParallelCoordinates /> */}
+      {/* <HeatMap /> */}
     </div >
   );
 };
