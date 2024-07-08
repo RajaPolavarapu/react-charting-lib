@@ -71,12 +71,14 @@ const ForceDirectedGraph = () => {
     }, []);
 
     return (
-        <div style={{ width: "100%" }}>
+        <div style={{ width: "100%", background: "black" }}>
             <div
                 ref={containerRef}
                 style={{ width: "100%", height: "99vh" }}
             >
                 <svg ref={svgRef} viewBox={[-width / 2, -height / 2, width, height]} height={height} width={width}>
+                    <text x={100} y={100} fill="gray">Hello world</text>
+
                     <g ref={linkRef} stroke="#999" opacity={.6}>
                         {
                             links.map((d, i) => (
@@ -93,18 +95,27 @@ const ForceDirectedGraph = () => {
                             ))
                         }
                     </g>
-                    <g ref={nodeRef} stroke="#fff" strokeWidth={1.5}>
+                    <g ref={nodeRef} strokeWidth={1.5}>
                         {
                             nodes.map((d, i) => (
-                                <circle
-                                    key={i}
-                                    fill={color(d.group)}
-                                    cx={d.x}
-                                    cy={d.y}
-                                    r={5}
-                                >
-                                    <title>{d.id}</title>
-                                </circle>
+                                <g key={i}>
+                                    <circle
+                                        stroke="#fff"
+                                        key={i}
+                                        fill={color(d.group)}
+                                        cx={d.x}
+                                        cy={d.y}
+                                        r={5}
+                                    />
+                                    {/* <text
+                                        x={d.x + 10}
+                                        y={d.y + 5}
+                                        fill="gray"
+                                        pointerEvents={"none"}
+                                    >
+                                        {d.id.slice(0, 5)}
+                                    </text> */}
+                                </g>
                             ))
                         }
                     </g>
