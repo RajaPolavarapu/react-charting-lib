@@ -1,7 +1,7 @@
 import React, { useMemo, useRef, useCallback } from "react";
 import {
     scalePoint, line, scaleLinear,
-    extent, scaleOrdinal
+    extent, scaleOrdinal, select
 } from "d3";
 import useResponsiveWrapper from "./customHooks/useResponsiveWrapper";
 import data from "./data/parallelCoords.json";
@@ -34,9 +34,23 @@ const Axis = ({ yScale, xScale, dimension }) => {
                 className="axis-label"
                 x={0}
                 y={-9}
+                opacity={.3}
                 transform="rotate(90)"
                 textAnchor="start"
-                style={{ fill: "black", fontSize: 14, fontFamily: "Roboto" }}
+                cursor={"pointer"}
+                onMouseOver={(e) => {
+                    select(e.target)
+                        .transition(500)
+                        .style("opacity", 1)
+                        .style("fill", "lightgreen")
+                }}
+                onMouseOut={(e) => {
+                    select(e.target)
+                        .transition(500)
+                        .style("fill", "")
+                        .style("opacity", .3)
+                }}
+                style={{ fontSize: 16, fontFamily: "Roboto;" }}
             >
                 {dimension}
             </text>
