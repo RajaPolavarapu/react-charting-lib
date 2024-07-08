@@ -1,38 +1,50 @@
-import React, { useEffect, useMemo, useRef, useCallback } from "react";
+import React, { useMemo, useRef, useCallback } from "react";
 import {
     scalePoint, line, scaleLinear,
-    extent, select, axisLeft, scaleOrdinal
+    extent, scaleOrdinal
 } from "d3";
 import useResponsiveWrapper from "./customHooks/useResponsiveWrapper";
 import data from "./data/parallelCoords.json";
 
-const useAxis = (ref, yScale, label, xPosition) => {
-    useEffect(() => {
-        if (ref.current) {
-            const axisGenerator = axisLeft(yScale);
-            select(ref.current).call(axisGenerator);
-
-            const labelGroup = select(ref.current.parentNode).select(".axis-label");
-            if (labelGroup.empty()) {
-                select(ref.current.parentNode)
-                    .append("text")
-                    .attr("class", "axis-label")
-                    .attr("y", -9)
-                    .attr("text-anchor", "middle")
-                    .text(label)
-                    .style("fill", "black");
-            }
-        }
-    }, [ref, yScale, label, xPosition]);
-};
-
 const Axis = ({ yScale, xScale, dimension }) => {
     const axisRef = useRef(null);
-    useAxis(axisRef, yScale, dimension, xScale(dimension));
+
+    const ticks = yScale.ticks(5);
 
     return (
         <g transform={`translate(${xScale(dimension)}, 0)`}>
             <g ref={axisRef} />
+            {ticks.map((tick, i) => (
+                <g key={i} transform={`translate(0, ${yScale(tick)})`}>
+                    <line
+                        x2="-6"
+                        stroke="black"
+                    />
+                    <text
+                        dx="-9"
+                        dy="0.32em"
+                        textAnchor="end"
+                        style={{ fontSize: 10, fontFamily: "Roboto" }}
+                    >
+                        {tick}
+                    </text>
+                </g>
+            ))}
+            <text
+                className="axis-label"
+                x={0}
+                y={-9}
+                transform="rotate(90)"
+                textAnchor="start"
+                style={{ fill: "black", fontSize: 14, fontFamily: "Roboto" }}
+            >
+                {dimension}
+            </text>
+            <line
+                y1={yScale.range()[0]}
+                y2={yScale.range()[1]}
+                stroke="black"
+            />
         </g>
     );
 };
@@ -41,7 +53,7 @@ const ParallelCoordinates = ({ dimensions = ["Petal_Length", "Petal_Width", "Sep
     const containerRef = useRef(null);
     const { width, height } = useResponsiveWrapper(containerRef);
 
-    const margin = useMemo(() => ({ top: 30, right: 0, bottom: 30, left: 0 }), []);
+    const margin = useMemo(() => ({ top: 20, right: 20, bottom: 50, left: 20 }), []);
 
     const yScales = useMemo(() => {
         return dimensions.reduce((scales, dimension) => {
@@ -56,7 +68,7 @@ const ParallelCoordinates = ({ dimensions = ["Petal_Length", "Petal_Width", "Sep
         return scalePoint()
             .domain(dimensions)
             .range([0, width - margin.left - margin.right])
-            .padding(1);
+            .padding(.1);
     }, [dimensions, width, margin]);
 
     const colorScale = useMemo(() => {
@@ -81,7 +93,6 @@ const ParallelCoordinates = ({ dimensions = ["Petal_Length", "Petal_Width", "Sep
             >
                 <svg width={width} height={height}>
                     <g transform={`translate(${margin.left},${margin.top})`}>
-                        {/* Paths */}
                         <g id="paths">
                             {data.map((d, i) => (
                                 <path
@@ -93,7 +104,6 @@ const ParallelCoordinates = ({ dimensions = ["Petal_Length", "Petal_Width", "Sep
                                 />
                             ))}
                         </g>
-                        {/* Axes */}
                         <g id="axes">
                             {dimensions.map(dimension => (
                                 <Axis
