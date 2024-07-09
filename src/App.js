@@ -2,6 +2,7 @@ import React from 'react';
 import HeatMap from './charts/HeatMap';
 import ForceDirected from './charts/ForceDirected';
 import ParallelCoordinates from './charts/ParallelCoordinates';
+import WorldChoropleth from './charts/WorldChoropleth';
 
 const App = () => {
   return (
@@ -11,9 +12,9 @@ const App = () => {
       justifyContent: "space-between",
       flexWrap: "wrap"
     }}>
-      <ForceDirected />
-      {/* <ParallelCoordinates /> */}
-      {/* <HeatMap /> */}
+      <WorldChoropleth />
+      <ParallelCoordinates />
+      <HeatMap />
     </div >
   );
 };

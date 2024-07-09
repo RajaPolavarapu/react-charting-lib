@@ -1,0 +1,482 @@
+[
+    {
+        "name": "Finland",
+        "coordinates": [
+            25.7481511,
+            61.92411
+        ],
+        "literacy": 100
+    },
+    {
+        "name": "Norway",
+        "coordinates": [
+            10.7522454,
+            59.9138688
+        ],
+        "literacy": 100
+    },
+    {
+        "name": "Iceland",
+        "coordinates": [
+            -19.020835,
+            64.963051
+        ],
+        "literacy": 100
+    },
+    {
+        "name": "Denmark",
+        "coordinates": [
+            9.501785,
+            56.26392
+        ],
+        "literacy": 100
+    },
+    {
+        "name": "Sweden",
+        "coordinates": [
+            18.643501,
+            60.128161
+        ],
+        "literacy": 100
+    },
+    {
+        "name": "Luxembourg",
+        "coordinates": [
+            6.1295829,
+            49.815273
+        ],
+        "literacy": 100
+    },
+    {
+        "name": "Switzerland",
+        "coordinates": [
+            8.2275119,
+            46.818188
+        ],
+        "literacy": 100
+    },
+    {
+        "name": "Australia",
+        "coordinates": [
+            133.775136,
+            -25.274398
+        ],
+        "literacy": 100
+    },
+    {
+        "name": "Netherlands",
+        "coordinates": [
+            5.291266,
+            52.132633
+        ],
+        "literacy": 100
+    },
+    {
+        "name": "Belgium",
+        "coordinates": [
+            4.469936,
+            50.503887
+        ],
+        "literacy": 100
+    },
+    {
+        "name": "Germany",
+        "coordinates": [
+            10.451526,
+            51.165691
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "United Kingdom",
+        "coordinates": [
+            -3.435973,
+            55.378051
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "United States",
+        "coordinates": [
+            -95.712891,
+            37.09024
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Canada",
+        "coordinates": [
+            -106.346771,
+            56.130366
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "New Zealand",
+        "coordinates": [
+            174.885971,
+            -40.900557
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Estonia",
+        "coordinates": [
+            25.0136071,
+            58.595272
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Austria",
+        "coordinates": [
+            14.550072,
+            47.516231
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Ireland",
+        "coordinates": [
+            -8.24389,
+            53.41291
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Poland",
+        "coordinates": [
+            19.145136,
+            51.919438
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Slovenia",
+        "coordinates": [
+            14.995463,
+            46.151241
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Czech Republic",
+        "coordinates": [
+            15.472962,
+            49.817492
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Slovakia",
+        "coordinates": [
+            19.699024,
+            48.669026
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Belarus",
+        "coordinates": [
+            27.953389,
+            53.709807
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Lithuania",
+        "coordinates": [
+            23.881275,
+            55.169438
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Latvia",
+        "coordinates": [
+            24.603189,
+            56.879635
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "South Korea",
+        "coordinates": [
+            127.766922,
+            35.907757
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Japan",
+        "coordinates": [
+            138.252924,
+            36.204824
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Israel",
+        "coordinates": [
+            34.851612,
+            31.046051
+        ],
+        "literacy": 97.8
+    },
+    {
+        "name": "Spain",
+        "coordinates": [
+            -3.74922,
+            40.463667
+        ],
+        "literacy": 98.1
+    },
+    {
+        "name": "Italy",
+        "coordinates": [
+            12.56738,
+            41.87194
+        ],
+        "literacy": 98.9
+    },
+    {
+        "name": "France",
+        "coordinates": [
+            2.213749,
+            46.227638
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Portugal",
+        "coordinates": [
+            -8.224454,
+            39.399872
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Greece",
+        "coordinates": [
+            21.824312,
+            39.074208
+        ],
+        "literacy": 97.7
+    },
+    {
+        "name": "Cyprus",
+        "coordinates": [
+            33.429859,
+            35.126413
+        ],
+        "literacy": 99.1
+    },
+    {
+        "name": "Singapore",
+        "coordinates": [
+            103.819836,
+            1.352083
+        ],
+        "literacy": 97.5
+    },
+    {
+        "name": "Hong Kong",
+        "coordinates": [
+            114.109497,
+            22.396428
+        ],
+        "literacy": 96.4
+    },
+    {
+        "name": "Taiwan",
+        "coordinates": [
+            120.960515,
+            23.69781
+        ],
+        "literacy": 98.5
+    },
+    {
+        "name": "Costa Rica",
+        "coordinates": [
+            -83.753428,
+            9.748917
+        ],
+        "literacy": 97.8
+    },
+    {
+        "name": "Argentina",
+        "coordinates": [
+            -63.616672,
+            -38.416097
+        ],
+        "literacy": 98.1
+    },
+    {
+        "name": "Chile",
+        "coordinates": [
+            -71.542969,
+            -35.675147
+        ],
+        "literacy": 99
+    },
+    {
+        "name": "Uruguay",
+        "coordinates": [
+            -55.765835,
+            -32.522779
+        ],
+        "literacy": 98.1
+    },
+    {
+        "name": "Barbados",
+        "coordinates": [
+            -59.543198,
+            13.193887
+        ],
+        "literacy": 99.7
+    },
+    {
+        "name": "Croatia",
+        "coordinates": [
+            15.200000,
+            45.100000
+        ],
+        "literacy": 99.2
+    },
+    {
+        "name": "Sri Lanka",
+        "coordinates": [
+            80.771796,
+            7.873054
+        ],
+        "literacy": 91.2
+    },
+    {
+        "name": "United Arab Emirates",
+        "coordinates": [
+            53.847818,
+            23.424076
+        ],
+        "literacy": 93.8
+    },
+    {
+        "name": "Qatar",
+        "coordinates": [
+            51.183884,
+            25.354826
+        ],
+        "literacy": 97.8
+    },
+    {
+        "name": "Bahrain",
+        "coordinates": [
+            50.585471,
+            26.066700
+        ],
+        "literacy": 96.9
+    },
+    {
+        "name": "Kuwait",
+        "coordinates": [
+            47.481766,
+            29.311660
+        ],
+        "literacy": 96.3
+    },
+    {
+        "name": "Oman",
+        "coordinates": [
+            55.975413,
+            21.473532
+        ],
+        "literacy": 95.7
+    },
+    {
+        "name": "Saudi Arabia",
+        "coordinates": [
+            45.079162,
+            23.885942
+        ],
+        "literacy": 87.2
+    },
+    {
+        "name": "Brunei",
+        "coordinates": [
+            114.727669,
+            4.535277
+        ],
+        "literacy": 96.6
+    },
+    {
+        "name": "Malta",
+        "coordinates": [
+            14.375416,
+            35.937496
+        ],
+        "literacy": 95.8
+    },
+    {
+        "name": "Seychelles",
+        "coordinates": [
+            55.491977,
+            -4.679574
+        ],
+        "literacy": 95.2
+    },
+    {
+        "name": "Botswana",
+        "coordinates": [
+            24.684866,
+            -22.328474
+        ],
+        "literacy": 88.5
+    },
+    {
+        "name": "Namibia",
+        "coordinates": [
+            18.49041,
+            -22.95764
+        ],
+        "literacy": 88.5
+    },
+    {
+        "name": "South Africa",
+        "coordinates": [
+            22.937506,
+            -30.559482
+        ],
+        "literacy": 94.3
+    },
+    {
+        "name": "Zimbabwe",
+        "coordinates": [
+            29.154857,
+            -19.015438
+        ],
+        "literacy": 91.0
+    },
+    {
+        "name": "Mauritius",
+        "coordinates": [
+            57.552152,
+            -20.348404
+        ],
+        "literacy": 93.2
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "coordinates": [
+            -61.222503,
+            10.691803
+        ],
+        "literacy": 98.0
+    },
+    {
+        "name": "Bahamas",
+        "coordinates": [
+            -77.396279,
+            25.03428
+        ],
+        "literacy": 95.0
+    }
+]
