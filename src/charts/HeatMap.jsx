@@ -56,17 +56,20 @@ const useScales = (data, drawingHeight, drawingWidth) => {
 
 
 const HeatMap = () => {
-    const margin = useMemo(() => ({ top: 30, right: 20, bottom: 50, left: 20 }), []);
+    const margin = useMemo(() => ({ top: 30, right: 30, bottom: 30, left: 30 }), []);
     const containerRef = useRef(null);
 
-    const { width, height } = useResponsiveWrapper(containerRef);
+    const { width: tempWidth, height: tempHeight } = useResponsiveWrapper(containerRef);
 
-    const drawingWidth = useMemo(() => width - margin.right - margin.left, [width, margin]);
+    const width = Math.min(tempHeight, tempWidth);
+    const height = width;
+
     const drawingHeight = useMemo(() => height - margin.top - margin.bottom, [height, margin]);
+    const drawingWidth = useMemo(() => width - margin.right - margin.left, [width, margin]);
 
     const {
         xScale, yScale, colorScale,
-        xDomain, yDomain
+        xDomain
     } = useScales(data, drawingHeight, drawingWidth);
 
 
@@ -75,7 +78,7 @@ const HeatMap = () => {
             <h3 style={{ margin: 5 }}>Heat Map</h3>
             <div
                 ref={containerRef}
-                style={{ width: "100%", height: "100vh" }}
+                style={{ width: "100%", height: "100vh", display: "flex", justifyContent: "center" }}
             >
                 <svg width={width} height={height}>
                     <g

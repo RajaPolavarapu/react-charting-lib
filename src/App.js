@@ -1,6 +1,6 @@
 import React from 'react';
 import HeatMap from './charts/HeatMap';
-import ForceDirected from './charts/ForceDirected';
+import Sunburst from './charts/Sunburst';
 import ParallelCoordinates from './charts/ParallelCoordinates';
 import WorldChoropleth from './charts/WorldChoropleth';
 import DirectedChord from './charts/DirectedChord';
@@ -13,6 +13,7 @@ const App = () => {
       justifyContent: "space-between",
       flexWrap: "wrap"
     }}>
+      <Sunburst />
       <DirectedChord />
       <WorldChoropleth />
       <ParallelCoordinates />
