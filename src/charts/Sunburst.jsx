@@ -62,10 +62,10 @@ const Sunburst = () => {
         <div style={{ margin: 20, border: "1px solid green", borderRadius: "10px", width: "100%" }}>
             <div
                 ref={containerRef}
-                style={{ width: "100%", height: "900px", display: "flex", justifyContent: "center" }}
+                style={{ width: "100%", height: "1000px", display: "flex", justifyContent: "center" }}
             >
                 <svg width={width} height={height} font='10px sans-serif'>
-                    <g id="parent" transform={`translate(${width / 2}, ${height / 2})`} >
+                    <g id="parent" transform={`translate(${width / 2}, ${height / 1.8})`} >
                         <g id="arcs" >
                             {
                                 root.descendants().slice(1).map(d => (
