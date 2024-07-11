@@ -1,0 +1,206 @@
+[
+    {
+        "Country": "United States",
+        "Value": 12394
+    },
+    {
+        "Country": "Russia",
+        "Value": 6148
+    },
+    {
+        "Country": "Germany (FRG)",
+        "Value": 1653
+    },
+    {
+        "Country": "France",
+        "Value": 2162
+    },
+    {
+        "Country": "United Kingdom",
+        "Value": 1214
+    },
+    {
+        "Country": "China",
+        "Value": 1131
+    },
+    {
+        "Country": "Soviet Union",
+        "Value": ""
+    },
+    {
+        "Country": "Netherlands",
+        "Value": 1167
+    },
+    {
+        "Country": "Italy",
+        "Value": 660
+    },
+    {
+        "Country": "Israel",
+        "Value": 1263
+    },
+    {
+        "Country": "Ukraine",
+        "Value": 240
+    },
+    {
+        "Country": "Spain",
+        "Value": 814
+    },
+    {
+        "Country": "Sweden",
+        "Value": 83
+    },
+    {
+        "Country": "Switzerland",
+        "Value": 186
+    },
+    {
+        "Country": "Canada",
+        "Value": 87
+    },
+    {
+        "Country": "South Korea",
+        "Value": 587
+    },
+    {
+        "Country": "Belarus",
+        "Value": 23
+    },
+    {
+        "Country": "Norway",
+        "Value": 134
+    },
+    {
+        "Country": "Turkey",
+        "Value": 244
+    },
+    {
+        "Country": "South Africa",
+        "Value": 74
+    },
+    {
+        "Country": "Czech Republic",
+        "Value": 110
+    },
+    {
+        "Country": "Poland",
+        "Value": 3
+    },
+    {
+        "Country": "Belgium",
+        "Value": 12
+    },
+    {
+        "Country": "Australia",
+        "Value": 97
+    },
+    {
+        "Country": "Brazil",
+        "Value": 45
+    },
+    {
+        "Country": "Czechoslovakia",
+        "Value": ""
+    },
+    {
+        "Country": "North Korea",
+        "Value": ""
+    },
+    {
+        "Country": "Finland",
+        "Value": 58
+    },
+    {
+        "Country": "Uzbekistan",
+        "Value": ""
+    },
+    {
+        "Country": "Japan",
+        "Value": 2
+    },
+    {
+        "Country": "Slovakia",
+        "Value": 22
+    },
+    {
+        "Country": "Denmark",
+        "Value": 12
+    },
+    {
+        "Country": "Bulgaria",
+        "Value": ""
+    },
+    {
+        "Country": "Austria",
+        "Value": 22
+    },
+    {
+        "Country": "Yugoslavia",
+        "Value": ""
+    },
+    {
+        "Country": "Jordan",
+        "Value": 77
+    },
+    {
+        "Country": "UAE",
+        "Value": 72
+    },
+    {
+        "Country": "Singapore",
+        "Value": ""
+    },
+    {
+        "Country": "Moldova",
+        "Value": ""
+    },
+    {
+        "Country": "Unknown supplier(s)",
+        "Value": 7
+    },
+    {
+        "Country": "Indonesia",
+        "Value": 102
+    },
+    {
+        "Country": "Iran",
+        "Value": 10
+    },
+    {
+        "Country": "Libya",
+        "Value": ""
+    },
+    {
+        "Country": "Romania",
+        "Value": ""
+    },
+    {
+        "Country": "Portugal",
+        "Value": 56
+    },
+    {
+        "Country": "India",
+        "Value": 56
+    },
+    {
+        "Country": "Kazakhstan",
+        "Value": ""
+    },
+    {
+        "Country": "Serbia",
+        "Value": 2
+    },
+    {
+        "Country": "Ireland",
+        "Value": ""
+    },
+    {
+        "Country": "Hungary",
+        "Value": ""
+    },
+    {
+        "Country": "Others",
+        "Value": 77
+    }
+]

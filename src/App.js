@@ -4,6 +4,7 @@ import Sunburst from './charts/Sunburst';
 import ParallelCoordinates from './charts/ParallelCoordinates';
 import WorldChoropleth from './charts/WorldChoropleth';
 import DirectedChord from './charts/DirectedChord';
+import RadialBarChart from './charts/RadialBarChart';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       justifyContent: "space-between",
       flexWrap: "wrap"
     }}>
+      <RadialBarChart />
       <Sunburst />
       <DirectedChord />
       <WorldChoropleth />
