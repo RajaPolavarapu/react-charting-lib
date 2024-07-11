@@ -1,3 +1,5 @@
+## Components are Pure React Components, No Manual Dom manipulation
+
 ## For the Demo
 ## Visit: https://react-charting-lib.vercel.app
 
